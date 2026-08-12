@@ -123,22 +123,7 @@ body {
     margin-bottom: 20px;
 }
 
-.about-content strong {
-    color: #0f172a;
-}
 
-.about-content h3 {
-    color: #0ea5e9;
-    font-size: 26px;
-    margin-top: 35px;
-    margin-bottom: 15px;
-}
-
-.learning-text {
-    font-weight: bold;
-    color: #0ea5e9;
-    margin-top: 25px;
-}
 /* Section styling */
 .section {
     max-width: 900px;
