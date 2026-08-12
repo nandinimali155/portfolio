@@ -173,3 +173,10 @@ body {
 #contact p {
     margin-bottom: 8px;
 }
+
+.footer-made {
+    text-align: center;
+    color: #94a3b8;
+    margin-top: 15px;
+    font-size: 14px;
+}
