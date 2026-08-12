@@ -19,11 +19,16 @@
         <!--Hero Section-->
         <section class="hero">
             <h1>Nandini Mali</h1>
-            <p class="tagline">Python Developer | BCA Student | Software Developer</p>
+            <p class="tagline">BCA Student | Python Developer | Aspiring Full Stack Developer<p class="tagline">
             <p class="bio">I enjoy building practical applications and continuously learning new technologies.</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn btn-primary">View Projects</a>
-                <a href="C:\Users\Admin\Documents\Vishal Drive\OneDrive\Desktop\portfolio\Nandini_Kashinath_Mali_FlowCV_Resume.pdf download" class="btn btn-secondary">Download Resume</a>
+                <a href="{{ url_for('static', filename='Nandini_Kashinath_Mali_Resume.pdf') }}"
+               class="btn btn-secondary"
+               download="Nandini_Mali_Resume.pdf">
+                Download Resume
+            </a>
+                <!-- <a href="C:\Users\Admin\Documents\Vishal Drive\OneDrive\Desktop\portfolio\Nandini_Kashinath_Mali_FlowCV_Resume.pdf download" class="btn btn-secondary">Download Resume</a> -->
                
             </div>
         </section>
